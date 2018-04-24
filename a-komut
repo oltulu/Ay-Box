@@ -1,0 +1,6 @@
+#!/bin/bash
+rm -f ./aylinux_depo.db
+rm -f ./aylinux_depo.db.tar.gz
+rm -f ./aylinux_depo.files
+rm -f ./aylinux_depo.files.tar.gz
+sudo repo-add aylinux_depo.db.tar.gz *xz
